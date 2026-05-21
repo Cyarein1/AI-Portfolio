@@ -18,7 +18,7 @@ const contactLinks = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="px-6 py-24">
+    <section id="contact" className="border-t border-white/10 px-6 py-24">
       <div className="mx-auto max-w-6xl rounded-3xl border border-white/10 bg-white/[0.03] p-8 md:p-12">
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-blue-400">
           Contact

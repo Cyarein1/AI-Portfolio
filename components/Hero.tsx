@@ -1,19 +1,20 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center px-6 py-20">
+    <section className="relative min-h-screen overflow-hidden px-6 py-20">
+      <div className="absolute left-1/2 top-1/4 h-96 w-96 -translate-x-1/2 rounded-full bg-blue-500/20 blur-[120px]" />
       <div className="mx-auto max-w-6xl">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-blue-400">
           Full-Stack Software Developer
         </p>
 
         <h1 className="max-w-4xl text-5xl font-bold leading-tight text-white md:text-7xl">
-          I build full-stack products with clean interfaces, strong backend logic,
-          and practical AI workflows.
+          I build full-stack products with clean interfaces, strong backend
+          logic, and practical AI workflows.
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
-          I’m Siyabonga Mthethwa, a developer based in Durban, South Africa.
-          I work with React, TypeScript, Node.js, PostgreSQL, and APIs to build
+          I’m Siyabonga Mthethwa, a developer based in Durban, South Africa. I
+          work with React, TypeScript, Node.js, PostgreSQL, and APIs to build
           real web applications from idea to deployment.
         </p>
 

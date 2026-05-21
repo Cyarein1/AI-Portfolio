@@ -23,7 +23,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 py-24">
+    <section id="skills" className="border-t border-white/10 px-6 py-24">
       <div className="mx-auto max-w-6xl">
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-blue-400">
           Skills
