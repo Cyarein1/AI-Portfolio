@@ -1,4 +1,6 @@
-export const skillGroups = [
+import type { SkillGroup } from "@/types";
+
+export const skillGroups: SkillGroup[] = [
   {
     title: "Frontend Engineering",
     skills: ["React", "TypeScript", "JavaScript", "Tailwind CSS", "Material UI"],
